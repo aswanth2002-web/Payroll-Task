@@ -1,0 +1,58 @@
+
+
+body{
+    overflow-x: hidden;
+}
+.register-heading h2{
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    
+
+    
+}
+.form-register{
+     padding: 20px;
+     width: 500px;
+     border: 2px solid;
+     position: relative;
+     top: 20px;
+     left: 430px;
+     border-radius: 5px;
+
+}
+.form-register input{
+    background-color: rgb(231, 231, 231);
+    border: none;
+     border-radius: 5px;
+     width: 100%;
+}
+.form-register label{
+   font-weight: 500;
+     
+}
+.form-register form input:nth-of-type(12){
+    border: none;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    padding: 5px;
+    width: 80%;
+     font-weight: 500;
+}
+.button_container{
+    position: absolute;
+    left: 1100px;
+    bottom: 600px;
+    text-decoration: none;
+   
+}
+.button_container a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+
+}
+

@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+
+
+.full_container{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    border: 2px solid;
+    width: 400px;
+    height: 400px;
+}
+.full_container h2{
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+    
+.full_container form{
+       position: relative;
+    top: 80px;
+    left: 23px;
+    line-height: 2;
+}
+.full_container input{
+    width: 90%;
+}
+.full_container input:nth-of-type(4){
+   position: relative;
+    top: 30px;
+    left: 16px;
+    width: 80%;
+    color: black;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.button_container{
+    position: absolute;
+    left: 1100px;
+    bottom: 600px;
+    text-decoration: none;
+   
+}
+.button_container a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+
+}

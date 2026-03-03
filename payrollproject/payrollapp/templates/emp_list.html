@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ {%for i in emp_db%}
+ {{i.emp_name}} <br>
+  {{i.emp_id}} <br>
+   {{i.designation}} <br>
+    {{i.joining_date}}<br>
+     {{i.basic_salary}}<br>
+      {{i.hra}}<br>
+       {{i.da}}<br>
+        {{i.allowance}}<br>
+         {{i.pf}}<br>
+          {{i.esi}}<br>  
+          {%for data in data%}
+           {{data.leave_days}}
+ {{data.month}}
+          {%endfor%}
+ {%endfor%}
+
+</body>
+</html>
